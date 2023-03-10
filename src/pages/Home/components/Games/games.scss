@@ -1,0 +1,26 @@
+.games {
+    display: grid;
+    justify-content: flex-start;
+    margin-top: 24px;
+    align-items: center;
+    height: 100%;
+    gap: 12px;
+}
+
+.game-item {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto 1fr;
+    gap: 24px;
+
+    &__title {
+        font-size: 22px;
+        padding: 12px 0;
+    }
+
+    &__action {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}

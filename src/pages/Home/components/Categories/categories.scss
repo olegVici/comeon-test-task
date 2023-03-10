@@ -1,0 +1,15 @@
+.categories {
+    display: grid;
+    gap: 24px;
+    margin-top: 42px;
+
+    &__item {
+        font-size: 24px;
+        font-weight: bold;
+        cursor: pointer;
+
+        &_active {
+            color: #23A6D5;
+        }
+    }
+}
